@@ -1,0 +1,73 @@
+<html>
+<head>
+	<title>Form Solution</title>
+</head>
+
+<body>
+	<h1>Register</h1>
+	<form>
+		<label for="name">
+		First Name:<input id="name" type="text" name="name" placeholder=" John" required>
+		</label>
+		<label for="lastname">
+		Last Name:<input id="lastname" type="text" name="lastname" placeholder=" Smith" required>
+		</label>
+		
+		<p>
+		<label for="male" >
+		Male<input id="male" type="radio" name="gender" value="male"required>
+		</label>
+		<label for="female">
+		Female<input id="female" type="radio" name="gender" value="female">
+		</label>
+		<label for="other">
+		Other<input id="other" type="radio" name="gender" value="other">
+		</label>
+		</p>
+		
+		<p>
+		<label for="email">
+		Email:<input id="email" type="email" name="email" placeholder="enter your email" required>
+		</label>
+		<label for="password">
+		Password:<input id="password" type="password" name="password" placeholder="password" pattern=".{5,10}" required title="password needs at least 5 characters">
+		</label>
+		</p>
+
+		<p>
+		<label>
+		Birthday:
+		<select name="Month" >
+			<option>Month</option>
+			<option>January</option>
+			<option>February</option>
+			<option>March</option>
+		</select>
+		<select name="Day">
+			<option>Day</option>
+			<option>1</option>
+			<option>2</option>
+			<option>3</option>
+		</select>
+		<select name="Year">
+			<option>Year</option>
+			<option>1998</option>
+			<option>1999</option>
+			<option>2000</option>
+		</select>
+		</label>
+		</p>
+	
+		<p>
+		<label>
+		I agree to the terms and conditions <input type="checkbox" name="agree" required>
+		</label>
+		</p>
+		<button>Submit</button>
+		</form>
+	
+</body>
+
+
+
+</html>

@@ -1,0 +1,34 @@
+/*<img src="https://source.unsplash.com/cPF2nlWcMY4"> */
+body{
+	padding-top:70px;
+}
+
+.navbar-inverse{
+	background: #2c3e50;
+}
+
+.navbar-inverse .navbar-nav>li>a{
+	color:white;
+}
+
+
+.navbar-inverse .navbar-brand{
+	color:white;
+}
+.flex { /*ovo je da mi nebude bijelog prostora između slika*/
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.image{
+	width: 100%;
+  	height: 250px;
+  	background-size: cover;
+  	background-position: center center;
+}
+.image1{
+	background-image:url(https://source.unsplash.com/8MbdD0pHXGY);
+}
+.image2{
+	background-image:url(https://source.unsplash.com/b4aKXCeevtc);
+}

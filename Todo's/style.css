@@ -1,0 +1,7 @@
+.list{
+	text-decoration: line-through;
+}
+
+.selected{
+	background:green;
+}

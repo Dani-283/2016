@@ -1,0 +1,194 @@
+*{
+	margin:0 auto 0 auto;
+	text-align:left;
+}
+
+body {
+	margin:0;
+	padding:0;
+	text-align:left;
+	font-size:13px;
+	font-family:arial,helvetica,sans-serif;
+	color:#000000;
+	background-color:#1c478e;
+	background-image:url(http://cdn.wallpapersafari.com/2/36/2vacFk.jpg);
+}
+
+#container {
+	width:960px;
+}
+
+#header {
+	width:960px;
+	height:85px;
+}
+
+#header h1 {
+	color:#ffffff;
+	float:left;
+	font-size:40px;
+	padding:20px 0 0 20px;
+}
+
+.blue-text {
+	color:#67A0F5;
+}
+
+#header h2 {
+	color:#A9D1FA;
+	float:right;
+	padding: 40px 20px 0 0;
+}
+
+.white-text {
+	color:white;
+}
+
+#menu {
+	float:left;
+	display:block;
+	clear:both;
+	width:960px;
+	height:50px;
+	background-color:#1777BE;
+	border-radius:10px;
+}
+
+#menu ul {
+	list-style:none;
+	padding-top:16px
+}
+#menu ul li {
+	display:inline;
+}
+#menu ul li a {
+	color:#ffffff;
+	text-decoration:none;
+	padding: 30px 15px 0 5px;
+	font-size:15px;
+	font-weight:bold;
+}
+ #leftmenu {
+	 display:block;
+	 float:left;
+	 width:200px;
+	 height:390px;
+	 border-radius:10px;
+	 padding: 15px 20px 10px 10px;
+	 background-color:#1777BE;
+	 margin-top:15px;
+ }
+
+ #leftmenu h3{
+	 color:white;
+	 font-weight:bold;
+	 border-bottom:white solid 2px;
+	 padding-top:5px;
+	 font-size:18px;
+ }
+ 
+ #leftmenu ul {
+	 list-style:none;
+	 padding:0;
+ }
+ 
+ #leftmenu li {
+	 padding:15px 0 8px 0;
+	 border-bottom:white dashed 1px;
+ }
+
+ #leftmenu a ,#leftmenu a:visited {
+	 text-align:left;
+	 text-decoration:none;
+	 color:white;
+	 font-weight:bold;
+ }
+ 
+#content {
+	 width:720px;
+	 height:270px;
+	 background-color:white;
+	 border-radius:10px;
+	 float:right;
+	 border:#1777BE solid 3px;
+	 margin-top:10px;
+	 display:block;
+ }
+ 
+ h2 {
+	 padding:10px;
+}
+
+ h3{
+	color:#1777BE;
+	padding:10px;
+	font-weight:bold;
+	text-align:left;
+}
+
+#content p {
+	padding:0 0 15px 10px;
+}
+
+
+ 
+ .float{
+	 float:right;
+ }
+ 
+ 
+.developer  {
+	float:left;
+	width:140px;
+	padding-left:15px;
+	
+}
+
+.developer ul{
+	list-style:none;
+	line-height:1.7em;
+	padding:0px;
+	padding-bottom:7px;
+}
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
